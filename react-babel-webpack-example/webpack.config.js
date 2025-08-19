@@ -13,7 +13,7 @@ module.exports = {
   },
   // Configurações do modulo
   module: {
-    rule: [
+    rules: [
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,

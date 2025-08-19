@@ -1,4 +1,4 @@
-
+import React from "react";
 
 const App = () => {
   return (
@@ -7,6 +7,6 @@ const App = () => {
       <p>Este é um exemplo básico de aplicação React.</p>
     </div>
   );
-}
+};
 
-export default App
+export default App;
