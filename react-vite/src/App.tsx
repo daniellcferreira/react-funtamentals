@@ -6,6 +6,17 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
+  // Variaveis de ambiente
+  console.log(import.meta.env.MODE) // Exibe o modo atual (development, production, etc.)
+  console.log(import.meta.env.BASE_URL) // Exibe a URL base do projeto
+  console.log(import.meta.env.PROD) // Exibe se está em produção (true ou false)
+  console.log(import.meta.env.DEV) // Exibe se está em desenvolvimento (true ou false)
+  console.log(import.meta.env.SSR) // Exibe se está em modo SSR (Server-Side Rendering)
+
+  // Variaveis de ambiente personalizadas
+  console.log(import.meta.env.VITE_API_URL) // Exibe a URL da API definida
+  console.log(import.meta.env.DB_PASSWORD) // Exibe a senha do banco de dados definida
+
   return (
     <>
       <div>
