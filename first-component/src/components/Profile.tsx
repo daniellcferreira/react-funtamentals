@@ -1,3 +1,5 @@
+import { Skills } from "./Skills";
+
 export function Profile() {
   return (
     <div>
@@ -6,9 +8,10 @@ export function Profile() {
         alt="Daniel Ferreira"
         width="300px"
       />
-      <h3>Daniel Ferreira</h3>
+      <h2>Daniel Ferreira</h2>
       <p>Full Stack Developer</p>
       <p>Location: Brazil</p>
+      <Skills />
     </div>
   );
 }
